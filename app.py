@@ -379,4 +379,5 @@ def payu_callback():
         return jsonify({"status": "error", "message": "Invalid payment response"}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+    print("Starting server on http://0.0.0.0:5000")
+    app.run(debug=False, host='0.0.0.0', port=5000, use_reloader=False)
