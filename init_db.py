@@ -83,14 +83,14 @@ def init_database():
     
     # Insert sample services
     sample_services = [
-        ("Business Strategy Consulting", "Expert guidance on business growth, market expansion, and strategic planning.", 50000, 60),
-        ("Technology Implementation", "End-to-end technology solutions and digital transformation strategies.", 75000, 90),
-        ("Marketing & Branding", "Comprehensive marketing strategies and brand development solutions.", 40000, 45),
-        ("Website Audit Trial", "Basic website performance and SEO audit for new clients.", 1, 30),
-        ("Social Media Setup", "Complete social media profile setup and basic strategy guide.", 30000, 45),
-        ("Content Marketing Plan", "Comprehensive content marketing strategy and implementation guide.", 49000, 60),
-        ("E-commerce Optimization", "Complete optimization of your e-commerce platform for better conversions.", 49000, 90),
-        ("Data Analytics Setup", "Professional setup of analytics tools and custom reporting dashboard.", 30000, 60)
+        ("Business Strategy Consulting", "Expert guidance on business growth, market expansion, and strategic planning.", 5000, 60),
+        ("Technology Implementation", "End-to-end technology solutions and digital transformation strategies.", 7500, 90),
+        ("Marketing & Branding", "Comprehensive marketing strategies and brand development solutions.", 4000, 45),
+        ("Website Audit Trial", "Basic website performance and SEO audit for new clients.", 1000, 30),
+        ("Social Media Setup", "Complete social media profile setup and basic strategy guide.", 3000, 45),
+        ("Content Marketing Plan", "Comprehensive content marketing strategy and implementation guide.", 4900, 60),
+        ("E-commerce Optimization", "Complete optimization of your e-commerce platform for better conversions.", 4900, 90),
+        ("Data Analytics Setup", "Professional setup of analytics tools and custom reporting dashboard.", 3000, 60)
     ]
     
     cursor.executemany('''
